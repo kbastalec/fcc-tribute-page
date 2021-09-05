@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  text-align: center;
+  background-color: whitesmoke;
+}
+
+h1 {
+  margin: 0;
+}
+
+p {
+  margin: 5px;
+}
+
+#img-div {
+  margin: 0 40%;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+}
+
+#fig-caption {
+  margin: auto;
+  text-align: center;
+}
+
+#img-caption {
+  margin-top: 10px;
+}
+
+#tribute-info {
+  margin-top: 30px;
+  text-justify: auto;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+a:visited {
+  color: red;
+}
+
+@media (max-width: 1230px) {
+  #img-div {
+    margin: 0 15%;
+  }
+}
+
+@media (max-width: 460px) {
+  #img-div {
+    margin: 0 5%;
+  }
+}
